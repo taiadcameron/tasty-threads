@@ -3,6 +3,20 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        Pacifico: [
+          "Pacifico",
+          "ui-sans-serif",
+          "system-ui",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica Neue",
+          "Arial",
+          "sans-serif",
+        ],
+      },
       boxShadow: {
         "card-shadow": "0 7px 32px -11px rgba(0, 0, 0, 0.25)",
       },
@@ -22,8 +36,11 @@ module.exports = {
         },
         seconary: {
           light: "#DEC9B4",
-          DEFAULT: "#B08968",
+          DEFAULT: "#BDA087",
           dark: "#89603E",
+        },
+        orange: {
+          DEFAULT: "#F29846",
         },
       },
     },

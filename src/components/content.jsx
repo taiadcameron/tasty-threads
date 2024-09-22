@@ -1,4 +1,4 @@
-import { Bell, Search } from "lucide-react";
+import { Search } from "lucide-react";
 import RecipeCard from "./recipe-card";
 
 const Content = () => {

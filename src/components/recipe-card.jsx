@@ -1,5 +1,5 @@
 import logo from "../Images/logott.svg";
-import Button from "./button";
+import { Button } from "./button";
 import React, { useState } from "react";
 
 const RecipeCard = () => {

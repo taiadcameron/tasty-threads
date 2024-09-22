@@ -1,5 +1,7 @@
 import { Bell, Search } from "lucide-react";
 import logo from "../Images/logott.svg";
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -31,4 +33,15 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+const LoginNavBar = () => {
+  return (
+    <nav className="login-navbar w-full flex h-32 justify-between items-center px-8">
+      <img src={logo} alt="logo" className="h-28 rounded-3xl" />
+      <Link to="/" className="text-xl">
+        Home
+      </Link>
+    </nav>
+  );
+};
+
+export { Navbar, LoginNavBar };
